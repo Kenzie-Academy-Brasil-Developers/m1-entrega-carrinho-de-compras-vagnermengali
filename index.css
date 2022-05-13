@@ -1,0 +1,82 @@
+html,
+body,
+figure,
+div,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+}
+body{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/59498293b6ac502e55e87e9d/1499808498710-GLH1W9Y1RO3PE94QS3DZ/fundo-verde-textura.jpg?format=2500w");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:  rgb(255, 255, 255);
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+   button{
+    background-color: rgb(57, 180, 74);
+    height: 60px;
+    width: auto;
+    padding: 0 32px;
+    color: #ffffff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 20px;
+    border:none!important;
+    cursor: pointer;
+  }
+  li {
+    height: 48px;
+    width: auto;
+    padding: 20px 20px 0px 20px;
+    color: rgb(39, 117, 50);
+    border-radius: 4px;
+    font-size: 20px;
+    border:none!important;
+  }
+  #description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+}
+#soma {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
